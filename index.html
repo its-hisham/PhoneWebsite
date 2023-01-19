@@ -16,38 +16,74 @@
 <body>
     <div class="main-container">
         <div class="navbar">
-            <a href="#" class="logo"><img src="image/mobile.jpg" />RealMe</a>
+            <a href="#" class="logo"><img src="/image/mobile.jpg" />RealMe</a>
             <ul>
                 <li><a href="index.html"> Home </a> </li>
-                <li><a href="phone.html"> Phone </a> </li>
-                <li><a href="accessories.html"> Accessories </a> </li>
-                <li><a href="cart.html"> Cart</a> </li>
+                <li><a href="services.html"> Services </a> </li>
+                <li><a href="#"> About </a> </li>
+                <li><a href="#"> EMI </a> </li>
+                <li><a href="#"> Cart</a> </li>
                 <li><a href="contact.html"> Contact</a> </li>
             </ul>
         </div>
         <div class="container">
             <div class="image-container">
-                <img src="image/mobile1.png" />
+                <img src="/image/mobile1.png" />
             </div>
             <div class="features-container">
-                <div class="icon-container">
-                    <img src="image/camera.png" alt="" srcset="">
-                </div>
-                <div class="text-container">
-                    <h2>Camera</h2>
-                    <p>12 MP, Good Quality</p>
+                <div class="overlay"></div>
+                <div id="circle">
+                    <div class="feature one">
+                        <div class="icon-container">
+                            <img src="/image/camera.png" alt="" srcset="">
+                        </div>
+                        <div class="text-container">
+                            <h2>Camera</h2>
+                            <p>12 MP, Good Quality</p>
+                        </div>
+                    </div>
+                    <div class="feature two">
+                        <div class="icon-container">
+                            <img src="/image/processor.png" alt="" srcset="">
+                        </div>
+                        <div class="text-container">
+                            <h2>Processor</h2>
+                            <p>12 MP, Good Quality</p>
+                        </div>
+                    </div>
+                    <div class="feature three">
+                        <div class="icon-container">
+                            <img src="/image/display.png" alt="" srcset="">
+                        </div>
+                        <div class="text-container">
+                            <h2>Display</h2>
+                            <p>12 MP, Good Quality</p>
+                        </div>
+                    </div>
+                    <div class="feature four">
+                        <div class="icon-container">
+                            <img src="/image/battery.png" alt="" srcset="">
+                        </div>
+                        <div class="text-container">
+                            <h2>Battery</h2>
+                            <p>12 MP, Good Quality</p>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="nav-container">
-                <i class="fa-solid fa-angle-up arrow"></i>
+                <i class="fa-solid fa-angle-up arrow" id="btnUp" onclick=upClick()></i>
                 <h2>Features</h2>
-                <i class="fa-solid fa-angle-down arrow"></i>
+                <i class="fa-solid fa-angle-down arrow" id="btnDown" onclick=downClick()></i>
             </div>
         </div>
     </div>
 </body>
+
 <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/js/all.min.js"
     integrity="sha512-rpLlll167T5LJHwp0waJCh3ZRf7pO6IT1+LZOhAyP6phAirwchClbTZV3iqL3BMrVxIYRbzGTpli4rfxsCK6Vw=="
     crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<script src="script.js"></script>
 
 </html>
